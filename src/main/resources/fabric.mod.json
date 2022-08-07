@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "Screw Narrator",
+  "version": "${version}",
+  "name": "Screw Narrator",
+  "description": "Disables the Narrator",
+  "authors": ["Aikoyori"],
+  "contact": {"sources": "https://github.com/Aikoyori/ScrewNarrator",
+    "issues": "https://github.com/Aikoyori/ScrewNarrator/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/screwnarrator/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "xyz.aikoyori.screwnarrator.client.ScrewnarratorClient"
+    ],
+    "main": [
+      "xyz.aikoyori.screwnarrator.Screwnarrator"
+    ]
+  },
+  "mixins": [
+    "screwnarrator.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=1.19"
+  }
+}
