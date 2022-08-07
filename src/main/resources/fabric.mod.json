@@ -1,12 +1,13 @@
 {
   "schemaVersion": 1,
-  "id": "Screw Narrator",
+  "id": "screwnarrator",
   "version": "${version}",
   "name": "Screw Narrator",
   "description": "Disables the Narrator",
   "authors": ["Aikoyori"],
   "contact": {"sources": "https://github.com/Aikoyori/ScrewNarrator",
-    "issues": "https://github.com/Aikoyori/ScrewNarrator/issues"
+    "issues": "https://github.com/Aikoyori/ScrewNarrator/issues",
+    "homepage": "https://modrinth.com/mod/screwnarrator"
   },
   "license": "MIT",
   "icon": "assets/screwnarrator/icon.png",
